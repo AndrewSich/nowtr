@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'utils/theme.dart';
 import 'landing.dart';
 
-void main() => runApp(Nowtr());
+void main() => runApp(Nowtr()); //main function
 
 class Nowtr extends StatelessWidget {
   @override

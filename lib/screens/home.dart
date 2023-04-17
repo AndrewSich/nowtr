@@ -23,7 +23,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
     );
   }
 
-  // Home Navigation Bar
+  // Home Navigation Bar (HomeNavBar)
   BottomNavigationBar HomeNavBar() {
     return BottomNavigationBar(
       type: BottomNavigationBarType.fixed,
