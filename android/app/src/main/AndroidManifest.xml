@@ -1,9 +1,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.helloworld">
+    package="com.ands.nowtr">
+
+    <!-- property permissions [modified] -->
+    <uses-permissions
+        android:name= "android.permissions.INTERNET"
+    />
+
    <application
         android:label="helloworld"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        
+        android:usesClearTextTraffic="true">
+        
         <activity
             android:name=".MainActivity"
             android:exported="true"
